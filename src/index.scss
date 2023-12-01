@@ -1,0 +1,43 @@
+@import './assets/colors.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: $red-full-10;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: $font-color-3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: $red-full-10;
+}
+::-webkit-scrollbar-thumb {
+  background: $red-full-30;
+}
+
+@media (max-width: 768px){
+  ::-webkit-scrollbar {
+    height: 10px;
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: $red-full-10;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #71717150;
+    border-radius: 5px;
+  }
+}

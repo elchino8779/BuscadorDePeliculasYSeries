@@ -1,0 +1,41 @@
+@import '../../assets/colors.scss';
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  user-select: none;
+  animation-name: pagination-fadein;
+  animation-duration: 0.5s;
+  animation-iteration-count: initial;
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  .adelante,
+  .atras {
+    transition: 0.2s;
+    animation-name: pagination-fadein;
+    animation-duration: 0.5s;
+    animation-iteration-count: initial;
+
+    &:hover {
+      cursor: pointer;
+      filter: drop-shadow(0 0 10px $red-full-90) drop-shadow(0 0 10px $red-full-90);
+    }
+  }
+}
+
+@keyframes pagination-fadein {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}

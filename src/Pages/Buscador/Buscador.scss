@@ -1,0 +1,58 @@
+@import '../../assets/colors.scss';
+
+.buscador-page {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  animation: buscador-page-fadein;
+  animation-duration: 0.5s;
+  animation-iteration-count: initial;
+  margin-bottom: 20px;
+
+  .no-results {
+    margin-top: 50px;
+    text-align: center;
+    animation: buscador-page-fadein;
+    animation-duration: 0.5s;
+    animation-iteration-count: initial;
+  }
+}
+
+.container-items-search {
+  width: 90vw;
+  padding: 20px;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  animation: buscador-page-fadein;
+  animation-duration: 1.5s;
+  animation-iteration-count: initial;
+}
+
+@keyframes buscador-page-fadein {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@media (max-width: 1050px){
+  .buscador-page{
+    margin-top: 55px;
+  }
+}
+
+@media (max-width: 768px){
+  .buscador-page{
+    margin-bottom: 100px;
+  }
+}
