@@ -1,53 +1,46 @@
 <div id="titulo" align="center">
-    <h1 align="center">Buscador de Peliculas y Series</h1>
+    <h1>Buscador de Películas y Series</h1>
 </div>
 
 ---
 
-<div id="Caracteristicas" align="center">
-    <h2 align="center"> 🛠️ Especificaciones:</h2>
-    <h3>
-        Este proyecto fue creado con fines de practica<br>
-        Desarrollado en ReactJs y Sass<br>
-        Buscador de Peliculas y Series usando la API de theMovieDB<br>
-    </h3>
+<div id="datos">
+    <h3>✔️ Datos:</h3>
+    <p>
+	🔹 Este proyecto fue creado con fines de practica <br>
+	🔹 Desarrollado en ReactJs y Sass <br>
+	🔹 Buscador de películas y series usando la API de theMovieDB <br>
+    </p>
 </div>
 
 ---
 
-<div id="datos" align="center">
-    <h2>💾 Datos:</h2>
-    <br>
-        Slider de imagenes principal, peliculas y series.<br>
-        Recomendadas, mas vista, populares, etc.<br>
-        Buscador por peliculas, series o ambas<br>
-        Modal con información: Año, Puntuación, Imagenes, Tipo de contenido, etc.<br>
-        Totalmente responsivo.<br>
+<div id="caracteristicas">
+    <h3>⚙️ Características:</h3>
+    <p>
+        🔸 Slider de imágenes principal, películas y series <br>
+        🔸 Recomendadas, mas vista, populares, etc. <br>
+        🔸 Buscador por películas, series o ambas <br>
+	🔸 Modal con información: año, puntuación, imágenes, tipo de contenido, etc. <br>
+        🔸 Totalmente responsivo <br>
+    </p>
 </div>
 
 ---
 
 <div id="capturas" align="center">
+    <h3 align="left"> 📷 Capturas:</h3>
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/BuscadorDePeliculas/img01.png?raw=true" alt="Cap1" width="800">
     <br>
-    <h2> 📷 Capturas:</h2>
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/BuscadorDePeliculas/img02.png?raw=true" alt="Cap2" width="800">
     <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Buscador-peliculas/img-01.png?raw=true" alt="Cap1" width="700">
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/BuscadorDePeliculas/img03.png?raw=true" alt="Cap3" width="800">
     <br>
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/BuscadorDePeliculas/img04.png?raw=true" alt="Cap4" width="800">
     <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Buscador-peliculas/img-02.png?raw=true" alt="Cap2" width="700">
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/BuscadorDePeliculas/img05.png?raw=true" alt="Cap5" width="800">
     <br>
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/BuscadorDePeliculas/img06.png?raw=true" alt="Cap6" width="800">
     <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Buscador-peliculas/img-03.png?raw=true" alt="Cap3" width="700">
-    <br>
-    <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Buscador-peliculas/img-04.png?raw=true" alt="Cap4" width="700">
-    <br>
-    <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Buscador-peliculas/img-05.png?raw=true" alt="Cap5" width="600">
-    <br>
-    <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Buscador-peliculas/img-06.png?raw=true" alt="Cap6" width="600">
-    <br>
-    <br>
-    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/Buscador-peliculas/img-07.png?raw=true" alt="Cap7" width="400">
+    <img src="https://github.com/elchino8779/ImagenesGitHub/blob/main/ShotsImages/BuscadorDePeliculas/img07.png?raw=true" alt="Cap7" width="800">
 </div>
